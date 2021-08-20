@@ -12,7 +12,7 @@ function bstSearch(root,val) {
       currentNode = currentNode.left
     } else if (curVal>val) {
       currentNode = currentNode.right
-    }
+    } 
   }
   return null
 }
